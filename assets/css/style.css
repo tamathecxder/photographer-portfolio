@@ -1,0 +1,25 @@
+/* Custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;700&display=swap');
+
+/* My CSS Varibles */
+:root {
+  --lora: 'Lora', serif;
+  --montserrat: 'Montserrat', sans-serif;
+  --opensans: 'Open Sans', sans-serif;
+}
+
+body {
+  font-family: var(--montserrat);
+}
+
+.montserrat {
+  font-family: var(--montserrat) !important;
+}
+
+.opensans {
+  font-family: var(--opensans) !important;
+}
+
+.lora {
+  font-family: var(--lora) !important;
+}
