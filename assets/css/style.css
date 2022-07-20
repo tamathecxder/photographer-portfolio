@@ -269,7 +269,7 @@ nav .navbar-flex .navigation-social-media a img {
 #works .my-works {
   width: 100%;
   height: auto;
-  background-color: lightsalmon;
+  /* background-color: lightsalmon; */
   padding: 30px 0;
 }
 
@@ -281,6 +281,11 @@ nav .navbar-flex .navigation-social-media a img {
   display: flex;
   justify-content: stretch;
   align-items: stretch;
+}
+
+#works .my-works .image-parent img {
+  object-fit: cover;
+  object-position: center;
 }
 
 
