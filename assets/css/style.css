@@ -1,5 +1,5 @@
 /* Custom fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;700&display=swap');
 
 /* #E1E1E1, #AFAFAF, #808080, #545454 and #2B2B2B */
 /* My CSS Varibles */
@@ -306,6 +306,9 @@ nav .navbar-flex .navigation-social-media a img {
   color: var(--gray-25);
   transition: all 0.1s ease-in-out;
 }
+
+
+
 
 /* ETC */
 .montserrat {
