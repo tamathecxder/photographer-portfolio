@@ -87,6 +87,10 @@ nav .navbar-flex .navigation-social-media {
   gap: 20px;
 }
 
+nav .navbar-flex .navigation-social-media a:hover {
+  background-color: var(--dark-75);
+}
+
 nav .navbar-flex .navigation-social-media a {
   text-decoration: none;
   width: 40px;
