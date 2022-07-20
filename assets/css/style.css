@@ -89,10 +89,25 @@ nav .navbar-flex .navigation-social-media a {
   height: 40px;
   border-radius: 50%;
   background-color: var(--dark-100);
+  position: relative;
+}
+
+nav .navbar-flex .navigation-social-media a img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
 
+
+
+
+
+
+
+/* ETC */
 .montserrat {
   font-family: var(--montserrat) !important;
 }
