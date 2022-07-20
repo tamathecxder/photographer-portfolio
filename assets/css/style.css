@@ -288,8 +288,24 @@ nav .navbar-flex .navigation-social-media a img {
   object-position: center;
 }
 
+#works .my-works .btn-cta {
+  border-radius: 16px;
+  padding: 20px 60px;
+  background-color: transparent;
+  color: var(--dark-100);
+  border: 2px solid var(--dark-100);
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.1s ease-in-out;
+}
 
-
+#works .my-works .btn-cta:hover {
+  background-color: var(--dark-100);
+  color: var(--gray-25);
+  transition: all 0.1s ease-in-out;
+}
 
 /* ETC */
 .montserrat {
