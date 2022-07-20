@@ -158,7 +158,7 @@ nav .navbar-flex .navigation-social-media a img {
 
 /* Services Style */
 #services {
-  padding: 124px 0;
+  padding: 124px 0 52px 0;
   background: #F1F1F1;
 }
 
@@ -169,8 +169,6 @@ nav .navbar-flex .navigation-social-media a img {
   flex-direction: column;
   margin-top: -50px;
 }
-
-
 
 
 
