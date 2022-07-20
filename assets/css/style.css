@@ -308,6 +308,53 @@ nav .navbar-flex .navigation-social-media a img {
 }
 
 
+/* About Style */
+#about {
+  padding: 120px 0;
+  background: #F1F1F1;
+}
+
+#about .biography {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#about .bio-image {
+  width: 412px;
+  height: 412px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#about .biography .bio-image img {
+  width: 480px;
+  object-fit: cover;
+  object-position: -50px -100px;
+}
+
+#about .biography .bio-text {
+  margin: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#about .biography .bio-text h3 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+#about .biography .bio-text p {
+  max-width: 846px;
+  font-weight: 400;
+  font-size: 28px;
+}
+
 
 
 /* ETC */
