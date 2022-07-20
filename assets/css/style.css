@@ -74,6 +74,10 @@ nav .navbar-flex .navigation-links ul li a {
   color: var(--dark-100);
 }
 
+nav .navbar-flex .navigation-links ul li a:hover {
+  color: var(--gray-100);
+}
+
 nav .navbar-flex .navigation-social-media {
   width: 25%;
   height: 100%;
@@ -135,6 +139,12 @@ nav .navbar-flex .navigation-social-media a img {
   border-radius: 24px;
   font-weight: 500;
   background-color: var(--dark-100);
+  transition: all 0.3s ease-in-out;
+}
+
+#hero .hero-text .btn-hubungi:hover {
+  background-color: var(--dark-75);
+  transition: all 0.3s ease-in-out;
 }
 
 #hero .hero-banner {
@@ -507,10 +517,16 @@ nav .navbar-flex .navigation-social-media a img {
   border: none;
   border-radius: 12px;
   font-size: 16px;
-  background-color: #545454;
+  background-color: var(--dark-75);
   color: #fff;
   font-weight: 500;
   height: 52px;
+  transition: 0.3s all ease-in-out;
+}
+
+#contact .card-form .custom-form .btn-kontak:hover {
+  background-color: var(--dark-100);
+  transition: 0.3s all ease-in-out;
 }
 
 /* Footer Style */
