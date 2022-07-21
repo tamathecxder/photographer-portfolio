@@ -85,9 +85,11 @@ nav .navbar-flex .navigation-social-media {
   align-items: center;
   justify-content: end;
   gap: 20px;
+  transition: all 0.3s ease-in-out;
 }
 
 nav .navbar-flex .navigation-social-media a:hover {
+  transition: all 0.3s ease-in-out;
   background-color: var(--dark-75);
 }
 
