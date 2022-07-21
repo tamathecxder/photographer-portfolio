@@ -1,0 +1,40 @@
+@media screen and (max-width: 576px) {
+  nav .navbar-flex {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  nav .navbar-flex .navigation-brand {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+    order: 1;
+  }
+
+  nav .navbar-flex .navigation-links {
+    width: 100%;
+    order: 3;
+  }
+
+  nav .navbar-flex .navigation-links ul {
+    margin: auto;
+    width: auto;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 28px;  
+  }
+
+
+
+  nav .navbar-flex .navigation-social-media {
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+    order: 2;
+  }
+}
