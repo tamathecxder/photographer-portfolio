@@ -1,3 +1,4 @@
+/* Extra small size - xs ( >=374px ) */
 @media (min-width: 0px) and (max-width: 374px) {
   /* Navigation */
   nav .navbar-flex .navigation-links ul li a {
@@ -73,6 +74,7 @@
   }
 }
 
+/* Small size - sm ( >=576px ) */
 @media screen and (max-width: 576px) {
   /* Navigation */
   nav .navbar-flex {
@@ -501,6 +503,7 @@
   }
 }
 
+/* Middle size - md ( >=768px ) */
 @media screen and (max-width: 768px) {
   /* Navigation */
   nav .navbar-flex {
@@ -927,4 +930,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+}
+
+/* Large size - lg ( >=992px ) */
+@media screen and (max-width: 992px) {
+
+}
+
+/* Extra large size - xl ( >=1200px ) */
+@media screen and (max-width: 1200px) {
+
 }
