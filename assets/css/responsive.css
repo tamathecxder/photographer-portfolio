@@ -660,6 +660,13 @@
   #services .layanan .card-service .c-head {
     width: 100%;
     height: 218px;
+    overflow: hidden;
+  }
+
+  #services .layanan .card-service .c-head img {
+    object-fit: cover;
+    width: 115%;
+    object-position: center;
   }
 
   #services .layanan .card-service .c-body {
@@ -949,10 +956,14 @@
     order: 1;
   }
 
+  nav .navbar-flex .navigation-brand a {
+    font-size: 28px;
+  }
+
   nav .navbar-flex .navigation-social-media {
     width: 100%;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     order: 2;
     margin: 10px 0;
   }
@@ -980,7 +991,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 24px;
+    gap: 0px !important;
   }
 
   nav .navbar-flex .navigation-links ul li {
@@ -1016,20 +1027,26 @@
     max-width: 800px;
     line-height: 46px;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 32px;
     text-align: center;
   }
 
   #hero .hero-text p {
     line-height: 40px;
     max-width: 590px;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 36px;
   }
 
   #hero .hero-text .btn-hubungi {
-    width: 60%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    width: 40%;
+    height: 100%;
+    padding: 14px 20px;
+    font-size: 18px;
   }
 
   #hero .hero-banner {
@@ -1044,7 +1061,7 @@
 
   #hero .hero-banner img {
     /* background: #000; */
-    width: 400px;
+    width: 420px;
     object-position: center;
     object-fit: cover;
     position: absolute;
@@ -1066,12 +1083,12 @@
   }
 
   #services .heading h2 {
-    font-size: 32px;
+    font-size: 38px;
   }
 
   #services .heading p {
     margin-top: -5px;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   #services .layanan {
@@ -1083,7 +1100,7 @@
 
   #services .layanan .card-service {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 
   #services .layanan .card-service .c-head {
@@ -1091,10 +1108,15 @@
     height: 218px;
   }
 
+  #services .layanan .card-service .c-head img {
+    object-fit: cover;
+    object-position: -40px 100%;
+  }
+
   #services .layanan .card-service .c-body {
     width: 100%;
     height: 100%;
-    padding: 20px 20px;
+    padding: 10px 20px 20px 20px !important;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
@@ -1105,7 +1127,7 @@
   #services .layanan .card-service .c-body h3 {
     text-align: center;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 26px;
     margin: 12px 0 20px 0;
   }
 
@@ -1121,12 +1143,12 @@
   }
 
   #works .heading h2 {
-    font-size: 32px;
+    font-size: 38px;
   }
 
   #works .heading p {
     margin-top: -5px;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   #works .my-works .btn-cta {
@@ -1154,14 +1176,14 @@
   }
 
   #about .bio-image {
-    width: 312px;
-    height: 312px;
+    width: 412px;
+    height: 412px;
   }
 
   #about .biography .bio-image img {
     width: 480px;
     object-fit: cover;
-    object-position: -95px -100px;
+    object-position: -48px -100px;
   }
 
   #about .biography .bio-text {
@@ -1169,14 +1191,14 @@
   }
 
   #about .biography .bio-text h3 {
-    font-size: 32px;
+    font-size: 38px !important;
     margin-bottom: 28px;
   }
 
   #about .biography .bio-text p {
-    max-width: 420px;
-    font-size: 18px;
-    line-height: 28px;
+    max-width: 600px;
+    font-size: 26px;
+    line-height: 40px !important;
   }
 
   /* Contact Style */
@@ -1191,12 +1213,12 @@
   }
 
   #contact .heading h2 {
-    font-size: 32px;
+    font-size: 38px;
   }
 
   #contact .heading p {
     margin-top: -5px;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   #contact .card-contact {
