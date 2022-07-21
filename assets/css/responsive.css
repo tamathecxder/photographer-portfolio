@@ -63,10 +63,6 @@
     color: var(--dark-100);
   }
 
-
-
-
-  
   /* HERO */
   #hero .reversing {
     display: flex;
@@ -121,10 +117,6 @@
     left: 50%;
   }
 
-
-
-  
-  
   /* Services */
   #services {
     padding: 100px 0 50px 0;
@@ -188,10 +180,6 @@
     text-align: center;
   }
 
-
-
-
-  
   /* Works Style */
   #works {
     padding: 100px 0 50px 0;
@@ -214,5 +202,46 @@
 
   #works .my-works .btn-cta:active {
     background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  
+  /* About Style */
+  #about {
+    padding: 80px 0;
+  }
+
+  #about .biography {
+    /* background-color: coral; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #about .bio-image {
+    width: 312px;
+    height: 312px;
+  }
+
+  #about .biography .bio-image img {
+    width: 480px;
+    object-fit: cover;
+    object-position: -95px -100px;
+  }
+
+  #about .biography .bio-text {
+    margin: 30px 0;
+  }
+
+  #about .biography .bio-text h3 {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+
+  #about .biography .bio-text p {
+    max-width: 350px;
+    font-size: 18px;
+    line-height: 28px;
   }
 }
