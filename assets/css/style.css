@@ -535,6 +535,55 @@ nav .navbar-flex .navigation-social-media a img {
   transition: 0.3s all ease-in-out;
 }
 
+/* Gallery */
+#gallery {
+  padding: 100px 0 60px 0;
+  /* background: #F1F1F1; */
+}
+
+#gallery h2 {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#gallery .content-wrapper {
+  column-count: 4;
+  column-gap: 20px;
+}
+
+.content {
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 20px;
+  break-inside: avoid;
+}
+
+.content img {
+  max-width: 100%;
+  display: block;
+}
+
+.content > img {
+  grid-row: 1 / -1;
+  grid-column: 1;
+}
+
+.content a {
+  color: var(--dark-100);
+  text-decoration: none;
+}
+
+figcaption {
+  grid-row: 2;
+  grid-column: 1;
+  background-color: rgba(255, 255, 255, .5);
+  padding: .2em .5em;
+  justify-self: start;
+}
+
 /* Footer Style */
 footer {
   padding: 0;
