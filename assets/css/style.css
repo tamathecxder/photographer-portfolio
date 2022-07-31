@@ -537,7 +537,7 @@ nav .navbar-flex .navigation-social-media a img {
 
 /* Gallery */
 #gallery {
-  padding: 120px 0 60px 0;
+  padding: 60px 0 60px 0;
   /* background: #F1F1F1; */
 }
 
@@ -586,8 +586,12 @@ figcaption {
 
 /* Categories */
 #categories {
-  padding: 120px 0 60px 0;
+  padding: 60px 0 60px 0;
   /* background: #F1F1F1; */
+}
+
+.mb-120 {
+  margin-bottom: 120px;
 }
 
 #categories h2 {
