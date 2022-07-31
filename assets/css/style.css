@@ -576,14 +576,6 @@ nav .navbar-flex .navigation-social-media a img {
   text-decoration: none;
 }
 
-figcaption {
-  grid-row: 2;
-  grid-column: 1;
-  background-color: rgba(255, 255, 255, .5);
-  padding: .2em .5em;
-  justify-self: start;
-}
-
 /* Categories */
 #categories {
   padding: 60px 0 60px 0;
