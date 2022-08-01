@@ -2192,7 +2192,152 @@
 
 /* Very Extra large size - xxl ( >=1400px ) */
 @media (min-width: 1201px) and (max-width: 1400px) {
+  nav .navbar-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 1 100%;
+    flex-wrap: wrap;
+  }
 
+  nav .navbar-flex .navigation-brand {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  nav .navbar-flex .navigation-brand a {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--dark-100);
+  }
+
+  nav .navbar-flex .navigation-links {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav .navbar-flex .navigation-links ul {
+    margin: 0 auto;
+    width: auto;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 28px;  
+  }
+
+  nav .navbar-flex .navigation-links ul li a {
+    text-decoration: none;
+    font-family: var(--montserrat);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--dark-100);
+  }
+
+  nav .navbar-flex .navigation-links ul li a:hover {
+    color: var(--gray-100);
+  }
+
+  nav .navbar-flex .navigation-social-media {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  nav .navbar-flex .navigation-social-media a:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: var(--dark-75);
+  }
+
+  nav .navbar-flex .navigation-social-media a {
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--dark-100);
+    position: relative;
+  }
+
+  nav .navbar-flex .navigation-social-media a img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* MAIN - Hero Content */
+  #hero {
+    /* background: coral; */
+    padding: 124px 4px 140px 4px;
+  }
+
+  #hero .hero-text {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #hero .hero-text h1 {
+    line-height: 54px;
+    margin-bottom: 20px;
+    font-size: 42px;
+    font-weight: 600;
+  }
+
+  #hero .hero-text p {
+    max-width: 590px;
+    font-size: 20px;
+    margin-bottom: 36px;
+  }
+
+  #hero .hero-text .btn-hubungi {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    width: 40%;
+    height: 100%;
+    padding: 14px 20px;
+    border-radius: 24px;
+    font-weight: 500;
+    background-color: var(--dark-100);
+    transition: all 0.3s ease-in-out;
+  }
+
+  #hero .hero-text .btn-hubungi:hover {
+    background-color: var(--dark-75);
+    transition: all 0.3s ease-in-out;
+  }
+
+  #hero .hero-banner {
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#hero .hero-banner img {
+  width: 540px;
+  height: auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  
   /* Services */
   #services {
     padding: 100px 0 50px 0;
@@ -2212,7 +2357,7 @@
 
   #services .heading p {
     margin-top: -5px;
-    font-size: 20px;
+    font-size: 24px;
   }
 
   #services .layanan {
@@ -2276,7 +2421,7 @@
 
   #works .heading p {
     margin-top: -5px;
-    font-size: 20px;
+    font-size: 24px;
   }
 
   #works .my-works .btn-cta {
@@ -2319,14 +2464,14 @@
   }
 
   #about .biography .bio-text h3 {
-    font-size: 38px !important;
+    font-size: 46px;
     margin-bottom: 28px;
   }
 
   #about .biography .bio-text p {
-    max-width: 600px;
-    font-size: 26px;
-    line-height: 40px !important;
+    max-width: 740px;
+    font-size: 28px;
+    line-height: 40px;
   }
 
   /* Contact Style */
@@ -2350,7 +2495,7 @@
 
   #contact .heading p {
     margin-top: -5px;
-    font-size: 20px;
+    font-size: 24px;
   }
 
   #contact .card-contact {
@@ -2373,7 +2518,7 @@
 
   #contact .card-contact .contact-item p {
     text-align: justify;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   #contact .card-contact .contact-item p .links:active {
@@ -2389,13 +2534,13 @@
   }
 
   #contact .card-form .accent-pills {
-    width: 180px;
+    width: 200px;
     height: 50px;
   }
 
   #contact .card-form .accent-pills p {
     line-height: 50px;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   #contact .card-form .custom-form {
@@ -2418,7 +2563,7 @@
   }
 
   #contact .card-form .custom-form .controlled-form .custom-label {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
   }
@@ -2434,7 +2579,7 @@
   }
 
   #contact .card-form .custom-form .btn-kontak {
-    width: 45%;
+    width: 22%;
     font-size: 14px;
     height: 42px;
   }
@@ -2443,5 +2588,75 @@
     background-color: var(--dark-100);
     transition: 0.3s all ease-in-out;
   }
+
+  /* Footer Style */
+  footer {
+    padding: 0;
+    width: 100%;
+    height: 220px;
+    background: var(--dark-100);
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  footer .footer-content {
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: lightseagreen; */
+  }
+
+  footer .footer-content .footer-brand {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  footer .footer-content .footer-links {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: orange; */
+  }
+
+  footer .footer-content .footer-links ul {
+    margin: auto;
+    display: flex;
+    gap: 28px;
+    list-style-type: none;
+  }
+
+  footer .footer-content .footer-links ul li {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  footer .footer-content .footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  footer .footer-content .footer-links ul li a:hover {
+    color: var(--gray-100);
+  }
+
+  footer .copyright {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 18px;
+    top: 85%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
+
 }
 
