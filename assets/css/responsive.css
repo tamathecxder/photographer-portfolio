@@ -1103,7 +1103,7 @@
   }
 
   #about .biography .bio-text p {
-    max-width: 420px;
+    max-width: 480px;
     font-size: 22px;
     line-height: 34px;
   }
@@ -1394,7 +1394,7 @@
     text-align: center;
     text-decoration: none;
     color: #fff;
-    width: 60%;
+    width: 40%;
     height: 100%;
     padding: 14px 20px;
     font-size: 18px;
@@ -1412,11 +1412,11 @@
 
   #hero .hero-banner img {
     /* background: #000; */
-    width: 598px;
+    width: 452px;
     object-position: center;
     object-fit: cover;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
   }
 
@@ -1439,7 +1439,7 @@
 
   #services .heading p {
     margin-top: -5px;
-    font-size: 20px;
+    font-size: 24px;
   }
 
   #services .layanan {
@@ -1503,7 +1503,7 @@
 
   #works .heading p {
     margin-top: -5px;
-    font-size: 20px;
+    font-size: 24px;
   }
 
   #works .my-works .btn-cta {
@@ -1546,14 +1546,14 @@
   }
 
   #about .biography .bio-text h3 {
-    font-size: 38px !important;
+    font-size: 45px;
     margin-bottom: 28px;
   }
 
   #about .biography .bio-text p {
-    max-width: 600px;
+    max-width: 620px;
     font-size: 26px;
-    line-height: 40px !important;
+    line-height: 40px;
   }
 
   /* Contact Style */
@@ -1577,7 +1577,7 @@
 
   #contact .heading p {
     margin-top: -5px;
-    font-size: 20px;
+    font-size: 28px;
   }
 
   #contact .card-contact {
@@ -1616,13 +1616,13 @@
   }
 
   #contact .card-form .accent-pills {
-    width: 180px;
+    width: 200px;
     height: 50px;
   }
 
   #contact .card-form .accent-pills p {
     line-height: 50px;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   #contact .card-form .custom-form {
@@ -1645,7 +1645,7 @@
   }
 
   #contact .card-form .custom-form .controlled-form .custom-label {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom: 10px;
   }
@@ -1661,7 +1661,7 @@
   }
 
   #contact .card-form .custom-form .btn-kontak {
-    width: 45%;
+    width: 30%;
     font-size: 14px;
     height: 42px;
   }
@@ -1861,7 +1861,7 @@
 
   #hero .hero-banner img {
     /* background: #000; */
-    width: 340px;
+    width: 460px;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -1994,14 +1994,14 @@
   }
 
   #about .biography .bio-text h3 {
-    font-size: 38px !important;
+    font-size: 46px;
     margin-bottom: 28px;
   }
 
   #about .biography .bio-text p {
-    max-width: 600px;
+    max-width: 680px;
     font-size: 26px;
-    line-height: 40px !important;
+    line-height: 40px;
   }
 
   /* Contact Style */
@@ -2025,7 +2025,7 @@
 
   #contact .heading p {
     margin-top: -5px;
-    font-size: 20px;
+    font-size: 28px;
   }
 
   #contact .card-contact {
@@ -2064,13 +2064,13 @@
   }
 
   #contact .card-form .accent-pills {
-    width: 180px;
+    width: 200px;
     height: 50px;
   }
 
   #contact .card-form .accent-pills p {
     line-height: 50px;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   #contact .card-form .custom-form {
@@ -2093,7 +2093,7 @@
   }
 
   #contact .card-form .custom-form .controlled-form .custom-label {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom: 10px;
   }
@@ -2109,8 +2109,8 @@
   }
 
   #contact .card-form .custom-form .btn-kontak {
-    width: 45%;
-    font-size: 14px;
+    width: 24%;
+    font-size: 16px;
     height: 42px;
   }
 
@@ -2190,6 +2190,7 @@
   }
 }
 
+/* Very Extra large size - xxl ( >=1400px ) */
 @media (min-width: 1201px) and (max-width: 1400px) {
 
   /* Services */
@@ -2443,4 +2444,4 @@
     transition: 0.3s all ease-in-out;
   }
 }
-/* ASUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUu */
+
