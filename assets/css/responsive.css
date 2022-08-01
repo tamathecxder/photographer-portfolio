@@ -557,7 +557,7 @@
 
   #services .heading p {
     margin-top: -5px;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   #services .layanan {
@@ -619,7 +619,7 @@
 
   #works .heading p {
     margin-top: -5px;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   #works .my-works .btn-cta {
@@ -647,14 +647,14 @@
   }
 
   #about .bio-image {
-    width: 312px !important;
-    height: 312px !important;
+    width: 312px;
+    height: 312px;
   }
 
   #about .biography .bio-image img {
     width: 480px;
     object-fit: cover;
-    object-position: -100px -120px !important;
+    object-position: -100px -120px;
   }
 
   #about .biography .bio-text {
@@ -662,13 +662,13 @@
   }
 
   #about .biography .bio-text h3 {
-    font-size: 32px;
+    font-size: 34px;
     margin-bottom: 24px;
   }
 
   #about .biography .bio-text p {
-    max-width: 380px !important;
-    font-size: 18px !important;
+    max-width: 380px;
+    font-size: 20px;
     line-height: 28px;
   }
 
@@ -689,7 +689,7 @@
 
   #contact .heading p {
     margin-top: -5px;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   #contact .card-contact {
