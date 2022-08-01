@@ -535,6 +535,21 @@ nav .navbar-flex .navigation-social-media a img {
   transition: 0.3s all ease-in-out;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Gallery */
 #gallery {
   padding: 60px 0 60px 0;
@@ -699,6 +714,7 @@ nav .navbar-flex .navigation-social-media a img {
 }
 
 #categories .categories-wrapper {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -708,7 +724,7 @@ nav .navbar-flex .navigation-social-media a img {
 }
 
 #categories .categories-wrapper .category {
-  width: 630px;
+  width: 540px;
   height: 305px;
   border-radius: 12px;
   overflow: hidden;
