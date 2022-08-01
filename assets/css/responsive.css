@@ -3153,6 +3153,147 @@
     font-family: var(--lora);
     font-weight: 700;
   }
+
+
+  /* Gallery */
+  #gallery {
+    padding: 60px 0 60px 0;
+    /* background: #F1F1F1; */
+  }
+
+  #gallery h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  #gallery .content-wrapper {
+    column-count: 4;
+    column-gap: 10px;
+  }
+
+  .content {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    margin-bottom: 20px;
+    break-inside: avoid;
+  }
+
+  .content img {
+    max-width: 100%;
+    display: block;
+  }
+
+  .content > img {
+    grid-row: 1 / -1;
+    grid-column: 1;
+  }
+
+  #pricing {
+    padding: 60px 8px 60px 8px;
+    /* background: #f1f1f1; */
+  }
+
+  #pricing .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -50px;
+    margin-bottom: 50px;
+  }
+
+  #pricing .heading h2 {
+    font-size: 38px;
+    font-family: var(--opensans);
+    font-weight: 700;
+    color: var(--dark-100);
+  }
+
+  #pricing .heading p {
+    margin-top: -5px;
+    font-size: 20px;
+    font-family: var(--opensans);
+    font-weight: 400;
+    color: var(--dark-75);
+  }
+
+  #pricing .pricing-wrapper {
+    width: 100%;
+    display: flex;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px
+  }
+
+  #pricing .pricing-wrapper .card-price {
+    width: 46%;
+    height: 100%;
+    border-radius: 24px;
+    background-color: #f0f0f0;
+    padding: 60px 40px;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.1), 6px 6px 16px 1px rgba(0, 0, 0, 0.1), 6px 6px 12px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  }
+
+  #pricing .pricing-wrapper .card-price .card-price-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* background-color: red; */
+  }
+
+  #pricing .pricing-wrapper .card-price .card-price-header h4 {
+    font-family: var(--opensans);
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  #pricing .pricing-wrapper .card-price .card-price-header p {
+    font-family: var(--opensans);
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  #pricing .pricing-wrapper .card-price .card-price-header .price-value {
+    font-family: var(--montserrat);
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  #pricing .pricing-wrapper .card-price .card-price-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  #pricing .pricing-wrapper .card-price .card-price-body .benefit {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  #pricing .pricing-wrapper .card-price .card-price-body .benefit img {
+    width: 24px;
+    height: 100%;
+    /* background-color: red; */
+  }
+
+  #pricing .pricing-wrapper .card-price .card-price-body .benefit p {
+    font-size: 16px;
+  }
 }
 
 /* Very Extra large size - xxl ( >=1400px ) */
@@ -3702,6 +3843,147 @@
     margin: auto;
     font-family: var(--lora);
     font-weight: 700;
+  }
+
+
+  /* Gallery */
+  #gallery {
+    padding: 60px 0 60px 0;
+    /* background: #F1F1F1; */
+  }
+
+  #gallery h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  #gallery .content-wrapper {
+    column-count: 4;
+    column-gap: 10px;
+  }
+
+  .content {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    margin-bottom: 20px;
+    break-inside: avoid;
+  }
+
+  .content img {
+    max-width: 100%;
+    display: block;
+  }
+
+  .content > img {
+    grid-row: 1 / -1;
+    grid-column: 1;
+  }
+
+  #pricing {
+    padding: 60px 8px 60px 8px;
+    /* background: #f1f1f1; */
+  }
+
+  #pricing .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -50px;
+    margin-bottom: 50px;
+  }
+
+  #pricing .heading h2 {
+    font-size: 38px;
+    font-family: var(--opensans);
+    font-weight: 700;
+    color: var(--dark-100);
+  }
+
+  #pricing .heading p {
+    margin-top: -5px;
+    font-size: 22px;
+    font-family: var(--opensans);
+    font-weight: 400;
+    color: var(--dark-75);
+  }
+
+  #pricing .pricing-wrapper {
+    width: 100%;
+    display: flex;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px
+  }
+
+  #pricing .pricing-wrapper .card-price {
+    width: 46%;
+    height: 100%;
+    border-radius: 24px;
+    background-color: #f0f0f0;
+    padding: 60px 40px;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.1), 6px 6px 16px 1px rgba(0, 0, 0, 0.1), 6px 6px 12px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  }
+
+  #pricing .pricing-wrapper .card-price .card-price-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* background-color: red; */
+  }
+
+  #pricing .pricing-wrapper .card-price .card-price-header h4 {
+    font-family: var(--opensans);
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  #pricing .pricing-wrapper .card-price .card-price-header p {
+    font-family: var(--opensans);
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  #pricing .pricing-wrapper .card-price .card-price-header .price-value {
+    font-family: var(--montserrat);
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  #pricing .pricing-wrapper .card-price .card-price-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  #pricing .pricing-wrapper .card-price .card-price-body .benefit {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  #pricing .pricing-wrapper .card-price .card-price-body .benefit img {
+    width: 24px;
+    height: 100%;
+    /* background-color: red; */
+  }
+
+  #pricing .pricing-wrapper .card-price .card-price-body .benefit p {
+    font-size: 16px;
   }
 }
 
